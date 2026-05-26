@@ -1,12 +1,229 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio d'Aaron</title>
-    <link href="portfolio.css" rel="typesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Aaron Tsobna-Nganko</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="portfolio.css" crossorigin>
+  <link href="portfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <div class="noise"></div>
+  <div class="orb orb-left"></div>
+  <div class="orb orb-right"></div>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">AARON<span>_SLAM</span></div>
+      <div class="links">
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#cv">CV</a>
+        <a href="#skills">Compétences</a>
+        <a href="#veille">Veille</a>
+        <a href="#synthese">Synthèse</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Portfolio BTS SIO SLAM</p>
+      <h1>Aaron Tsobna-Nganko</h1>
+      <p class="subtitle">
+        19 ans — Lycée Geoffroy Saint-Hilaire, Étampes
+      </p>
+      <p class="intro">
+        Je construis ce portfolio pour présenter mon parcours, mes projets, mes compétences et ma veille technologique.
+        L’idée est simple : montrer ce que je sais faire, proprement et sans en faire trop.
+      </p>
+      <div class="cta">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <div class="section-head">
+        <span>01</span>
+        <h2>À propos</h2>
+      </div>
+
+      <div class="panel about-grid">
+        <div>
+          <h3>Mon parcours</h3>
+          <p>
+            Je m'appelle Aaron Tsobna-Nganko, j'ai 19 ans et je suis en BTS SIO option SLAM.
+            Je m'intéresse surtout au développement web, à la création d’interfaces modernes et à la logique derrière les applications.
+          </p>
+          <p>
+            Ce portfolio sert de vitrine pour mes travaux scolaires, mes essais personnels et les documents importants de ma formation.
+          </p>
+        </div>
+
+        <div class="mini-cards">
+          <div class="mini-card">
+            <strong>Formation</strong>
+            <span>BTS SIO SLAM</span>
+          </div>
+          <div class="mini-card">
+            <strong>Établissement</strong>
+            <span>Lycée Geoffroy Saint-Hilaire</span>
+          </div>
+          <div class="mini-card">
+            <strong>Ville</strong>
+            <span>Étampes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <span>02</span>
+        <h2>Projets</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="panel project-card">
+          <p class="tag">Projet 01</p>
+          <h3>Portfolio personnel</h3>
+          <p>Site vitrine pour présenter mon parcours, mon CV et mes travaux BTS SIO.</p>
+          <a href="#" class="text-link">Lien GitHub</a>
+        </article>
+
+        <article class="panel project-card">
+          <p class="tag">Projet 02</p>
+          <h3>Application de gestion</h3>
+          <p>Petit projet SLAM pour gérer des données et manipuler des formulaires.</p>
+          <a href="#" class="text-link">Voir le projet</a>
+        </article>
+
+        <article class="panel project-card">
+          <p class="tag">Projet 03</p>
+          <h3>Interface web</h3>
+          <p>Maquette ou site responsive réalisé en HTML, CSS et JavaScript.</p>
+          <a href="#" class="text-link">Détails</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="section-head">
+        <span>03</span>
+        <h2>CV</h2>
+      </div>
+
+      <div class="panel cv-box">
+        <div>
+          <h3>Mon CV au format PDF</h3>
+          <p>Tu peux déposer ton fichier ici et proposer un téléchargement direct.</p>
+        </div>
+        <a class="btn btn-primary" href="cv-aaron.pdf" download>Télécharger le CV</a>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <span>04</span>
+        <h2>Compétences</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="panel">
+          <h3>Logiciels</h3>
+          <ul>
+            <li>Visual Studio Code</li>
+            <li>Git / GitHub</li>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Technologies</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Compétences BTS</h3>
+          <ul>
+            <li>Travail en équipe</li>
+            <li>Veille technologique</li>
+            <li>Gestion de projet</li>
+            <li>Documentation technique</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="veille" class="section">
+      <div class="section-head">
+        <span>05</span>
+        <h2>Veille technologique</h2>
+      </div>
+
+      <div class="panel">
+        <h3>Sujets suivis</h3>
+        <div class="timeline">
+          <div class="item">
+            <span>01</span>
+            <p>Actualités du web et des frameworks modernes.</p>
+          </div>
+          <div class="item">
+            <span>02</span>
+            <p>Cybersécurité, bonnes pratiques et protection des données.</p>
+          </div>
+          <div class="item">
+            <span>03</span>
+            <p>Nouveaux outils pour développer plus vite et mieux organiser son travail.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="synthese" class="section">
+      <div class="section-head">
+        <span>06</span>
+        <h2>Note de synthèse</h2>
+      </div>
+
+      <div class="panel cv-box">
+        <div>
+          <h3>Ma synthèse BTS SIO</h3>
+          <p>Ajoute ici ta note de synthèse, ton rapport de veille ou un document PDF lié à ton parcours.</p>
+        </div>
+        <a class="btn btn-outline" href="note-de-synthese.pdf" download>Ouvrir la synthèse</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <span>07</span>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="panel contact-box">
+        <p>Un espace simple pour ajouter ton mail, LinkedIn ou GitHub.</p>
+        <div class="contact-links">
+          <a href="mailto:tonmail@example.com">Email</a>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Portfolio BTS SIO SLAM — Aaron Tsobna-Nganko</p>
+  </footer>
 </body>
 </html>
