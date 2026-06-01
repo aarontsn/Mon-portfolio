@@ -42,7 +42,7 @@ h1, h2, h3 {
     z-index: 1;
 }
 
-/* Modification complète de la Barre de Navigation */
+/* la Barre de Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -92,7 +92,7 @@ h1, h2, h3 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 140px 8% 60px; /* Ajout de padding-top pour ne pas cacher le contenu sous la navbar fixe */
+    padding: 140px 8% 60px; /* padding-top pour pas cacher le contenu sous la navbar fixe */
 }
 
 .hero-content {
@@ -137,7 +137,7 @@ h1, h2, h3 {
     flex-wrap: wrap;
 }
 
-/* Boutons retravaillés en formes asymétriques/gélules */
+/* Boutons en formes asymétriques/gélules */
 .btn {
     padding: 14px 28px;
     font-weight: 600;
