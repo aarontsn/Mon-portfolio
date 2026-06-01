@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Tsobna-Nganko | Portfolio BTS SIO SLAM</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" type="image/png" href ="logo aaron.webp"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+
+    <header class="hero" id="accueil">
+        <nav class="navbar">
+            <div class="logo">Bienvenue dans mon Portfolio !</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#tp">TP</a></li>
+                <li><a href="#veille">Veille</a></li>
+                <li><a href="#contact">Me Contacter</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <p class="subtitle">BTS SIO SLAM</p>
+            <h1>Aaron Tsobna-Nganko</h1>
+            <p class="description">
+                Je suis un jeune étudiant développeur en 1ère année de BTS SIO option SLAM,
+                passionné par le développement web et la création de logicielles.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section card" id="apropos">
+            <h2>BTS SIO SLAM</h2>
+            <p>
+                Je suis actuellement en BTS Services Informatiques aux Organisations,
+                option SLAM, une formation orientée vers le développement d’applications,
+                la gestion de données et la conception de solutions logicielles.
+                <br>
+                <br>
+                <div class="hero-buttons">
+                <a href="cv-aaron.pdf" target="_blank" class="btn primary" download="CV_Aaron_Tsobna.pdf">Télécharger mon CV</a>
+                </div>
+            </p>
+        </section>
+
+        <section class="section grid" id="parcours">
+            <article class="card">
+                <h2>Informations personnelles</h2>
+                <ul class="info-list">
+                    <li><strong>Nom :</strong> Aaron Tsobna-Nganko</li>
+                    <li><strong>Ville :</strong> Bruyères-le-Châtel, 91680</li>
+                    <li><strong>Lycée :</strong> Lycée Geoffroy Saint-Hilaire, Étampes 91150</li>
+                    <li><strong>Formation :</strong> BTS SIO SLAM - 1ère année</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-box html" data-name="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-box css" data-name="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-box js" data-name="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-box java" data-name="Java">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-box sql" data-name="SQL">
+                        <p>SQL</p>
+                    </div>
+                    <div class="skill-box git" data-name="Git">
+                        <p>Git</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2>Parcours</h2>
+                <div class="parcours-container">
+                    <div class="parcours-box">
+                        <span class="badge-date">26 Mai - 26 Juin 2026</span>
+                        <h3>Stage de 1ère année</h3>
+                        <p class="lieu">Lycée Geoffroy-Saint-Hilaire, Étampes</p>
+                    </div>
+                    <div class="parcours-box">
+                        <span class="badge-date">2025 - 2027</span>
+                        <h3>BTS SIO option SLAM</h3>
+                        <p class="lieu">Lycée Geoffroy-Saint-Hilaire, Étampes</p>
+                    </div>
+                    <div class="parcours-box">
+                        <span class="badge-date">2022 - 2025</span>
+                        <h3>Baccalauréat AGORA</h3>
+                        <p class="lieu">Lycée Paul Belmondo, Arpajon</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2>Veille technologique</h2>
+                <p>
+                    La veille technologique consiste à se tenir informer en permanence sur les actualités, les avancées et les innovations relatives à un domaine technologique précis. Le but est de toujours être informé des bonnes pratiques à suivre, des technologies à utiliser, des dernières failles de sécurité identifiée etc.
+                    <br>
+                    <br>
+                    <br>
+                    Espace pour mon sujet de veille.
+                </p>
+            </article>
+        </section>
+
+        <section class="section card" id="tp">
+            <h2>Mes TP</h2>
+            <p>
+                Voici quelques travaux pratiques réalisés pendant ma formation.
+                Chaque TP peut contenir un titre et les technologies utilisées.
+            </p>
+
+            <div class="tp-grid">
+                <article class="tp-card">
+                    <h3>TP 1 - Mise en place d'un serveur DHCP</h3>
+                    <div class="tp-image">
+                        <img src="tp3.réseau.pdf.png" alt="Mise en place d'un serveur DHCP" >
+                    </div>
+                    <p><strong><u>Technologies</u> :</strong> Cisco Packet Tracer</p>
+                    <a href="tp3réseau.pdf" target="_blank" class="tp-link">Voir le TP</a>
+                </article>
+
+                <article class="tp-card">
+                    <h3>TP 2 - Mise en place d'un serveur Web</h3>
+                    <div class="tp-image">
+                        <img src="tp2.serveurweb.png" alt="Mise en place d'un serveur web" >
+                    </div>
+                    <p><strong><u>Technologies</u> :</strong> Cisco Packet Tracer</p>
+                    <a href="Compte rendu tp 2 Réseau.pdf" target="_blank" class="tp-link">Voir le TP</a>
+                </article>
+
+                <article class="tp-card">
+                    <h3>TP 3 - Les empreintes cryptographiques</h3>
+                    <div class="tp-image">
+                        <img src="tp.empreinte.cryptographique.png" alt="Les empreintes cryptographiques">
+                    </div>
+                    <p><strong><u>Technologies</u> :</strong> Terminal Linux</p>
+                    <a href="tp.MD5.pdf" target="_blank" class="tp-link">Voir le TP</a>
+                </article>
+            </div>
+        </section><br><br>
+
+        <section class="section card" id="notes">
+            <h2>Note de synthèse</h2>
+            <p>
+                Tu peux télécharger ici ma note de synthèse liée à mes stages et à mes expériences en BTS SIO.
+            </p><br>
+            <div class="download-box">
+                <p><strong>Fichier disponible :</strong> Note de synthèse PDF</p><br><br>
+                <div class="hero-buttons">
+                <a href="note-de-synthese-aaron.pdf" class="btn primary" download>Télécharger la note de synthèse</a>
+                </div>
+            </div>
+        </section><br><br>
+
+        <section class="section card" id="contact">
+            <h2>Me Contacter</h2>
+            <p><i class="fa-solid fa-envelope"></i> Email : tsobnaaaron@gmail.com</p><br>
+            <p><i class="fa-brands fa-linkedin"></i> Linkedin : <a href="https://www.linkedin.com/in/aaron-tsobna-nganko-17931b366" target="_blank">Aaron Tsobna-Nganko</a></p><br>
+            <p><i class="fa-brands fa-github"></i> GitHub : <a href="https://aarontsn.github.io" target="_blank">aarontsn.github.io</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aaron Tsobna-Nganko. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
